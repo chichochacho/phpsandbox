@@ -7,6 +7,12 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <?php
+
+    date_default_timezone_set('America/Costa_Rica');
+    echo date('M l d \of Y')."<br>";
+    echo date('h:i:sa');
+
+  ?>
 </body>
 </html>
